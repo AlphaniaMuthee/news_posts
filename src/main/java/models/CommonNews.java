@@ -2,15 +2,15 @@ package models;
 
 import java.util.Objects;
 
-public class CommonNews {
-    private String news;
-    private String writer;
+public abstract class CommonNews {
+    public String news;
+    public String writer;
     private int id;
 
-    public CommonNews(String news, String writer) {
-        this.news = news;
-        this.writer = writer;
-    }
+//    public CommonNews(String news, String writer) {
+//        this.news = news;
+//        this.writer = writer;
+//    }
 
     @Override
     public boolean equals(Object o) {
