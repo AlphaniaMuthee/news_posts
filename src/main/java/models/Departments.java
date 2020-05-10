@@ -30,4 +30,35 @@ public class Departments {
         return Objects.hash(name, details, totalEmployees, id);
     }
 
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public String getDetails() {
+        return details;
+    }
+
+    public void setDetails(String details) {
+        this.details = details;
+    }
+
+    public int getTotalEmployees() {
+        return totalEmployees;
+    }
+
+    public void setTotalEmployees(int totalEmployees) {
+        this.totalEmployees = totalEmployees;
+    }
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
 }
